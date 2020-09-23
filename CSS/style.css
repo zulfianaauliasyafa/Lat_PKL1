@@ -1,8 +1,13 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 *, body {
     padding: 0;
     margin: 0;
 }
 
+.p{
+    margin-bottom : 0px!important
+}
 .mr-30 {
     margin: 0 15px 0 15px;
 }
@@ -11,6 +16,7 @@
     border-color :   #6255A5!important;
     border-radius: 10px!important;
     width : 143px;
+    height: 45px;
 }
 
 .title{
@@ -55,6 +61,7 @@
     font-weight: 500;
     font-size: 16px;
     color: #6255A5;
+    margin-bottom : 0px
 }
 
 .what{
@@ -74,6 +81,93 @@
 
 .a3{
     width: 540px;
-    height: 366px;
-    
+    height: 366px;    
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.mr-10{
+    margin: 0 12px;
+}
+
+.mt-165{
+    margin-top: 165px;
+}
+
+.txt-category{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 1rem!important;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.txt-category.active{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 1rem!important;
+    text-align: center;
+    color: #413960!important;
+    border-color: transparent!important;
+
+    border-bottom: solid 2px #6255A5!important;
+}
+
+.card{
+    margin: 20px;
+    border: none!important;
+}
+
+.card-body{
+    padding: 1.25rem!important;
+}
+
+.checked{
+    color:#EEBB00;
+}
+
+.card-title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 170%;
+    color: #413960;
+}
+
+.txt-author{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 170%;
+    color: #909090;
+}
+
+.card-title2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+    color: #333333;
+}
+
+.card-text2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+    color: #909090;
 }
